@@ -11,18 +11,14 @@
 
 void print_to_98(int n)
 {
-    for (n = 0; n < 10; n++) 
-    {
-        for (int count = 0; count < 9; count++)
-        {
-            int number = n * 10 + count;
-            std::cout << number;
-            
-            if (number < 98) {
-                std::cout << ", ";
-            }
-        }
-    }
+int n=0, count;
+if (n > 98)
+for (count = n; count > 98; count--)
+printf("%d. ", count);
+for (count = n; count < 98; count++)
+{
+printf("%d. ", count);
+printf("98\n");
 
-    return 0;
+}
 }
