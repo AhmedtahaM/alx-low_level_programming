@@ -2,8 +2,8 @@
 
 /**
  * _islower - function to check if
- * c - character  is lowercase
- * description: checks input function
+ *  character  is lowercase
+ * @c : checks input function
  *
  * Return: returns 1 if 'c' is lowercase
  * is always 0 (success)
