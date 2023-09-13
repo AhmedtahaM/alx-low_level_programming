@@ -1,4 +1,4 @@
-#include"maon.h"
+#include"main.h"
 
 /**
  * print_alphabet_x10 - function that will print alphabet 10 times
