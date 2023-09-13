@@ -10,11 +10,19 @@
  */
 
 void print_to_98(int n)
-{       
-int n = 0;
-for (int i = n ; n > 98 ;n++ )
 {
-_putchar(',');
-_putchar(' '+n);
-}
+    for (int n = 0; n < 10; n++) 
+    {
+        for (int count = 0; count < 9; count++)
+        {
+            int number = n * 10 + count;
+            std::cout << number;
+            
+            if (number < 98) {
+                std::cout << ", ";
+            }
+        }
+    }
 
+    return 0;
+}
