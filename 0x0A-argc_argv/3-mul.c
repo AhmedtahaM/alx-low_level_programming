@@ -44,7 +44,6 @@ return (0);
 
 return (n);
 }
-}
 
 /**
  * main - multiplies two numbers
