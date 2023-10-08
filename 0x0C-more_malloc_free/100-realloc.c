@@ -41,7 +41,7 @@ free(ptr);
 return (ptr1);
 }
 free(ptr);
-return (NULL); 
+return (NULL);
 }
 
 if (!ptr)

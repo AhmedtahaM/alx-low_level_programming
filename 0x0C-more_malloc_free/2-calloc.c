@@ -25,7 +25,7 @@ return (s);
  * *_calloc - allocates memory for an array
  * @nmemb: number of elements in the array
  * @size: size of each element
- * */
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *ptr;
@@ -42,5 +42,5 @@ _memset(ptr, 0, nmemb * size);
 
 return (ptr);
 }
- * Return: pointer to allocated memory
+
 

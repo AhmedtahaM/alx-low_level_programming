@@ -65,7 +65,8 @@ errors();
 len1 = _strlen(s1);
 len2 = _strlen(s2);
 len = len1 + len2 + 1;
-result = malloc(sizeof(int) * len);if (carry > 0)
+result = malloc(sizeof(int) * len);
+if (carry > 0)
 result[len1 + len2 + 1] += carry;
 }
 for (i = 0; i < len - 1; i++)
