@@ -22,7 +22,7 @@ return (s);
 }
 
 /**
- * *_calloc - allocates memory for an array
+ * *_calloc:  allocates memory for an array
  * @nmemb: number of elements in the array
  * @size: size of each element
  */
