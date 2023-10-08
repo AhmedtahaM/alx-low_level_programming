@@ -19,7 +19,15 @@ if (new_size == old_size)
 return (ptr);
 
 if (new_size == 0 && ptr)
-{ptr1 = malloc(new_size);
+{
+free(ptr);
+return (NULL);
+}
+
+if (!ptr)
+return (malloc(new_size));
+
+ptr1 = malloc(new_size);
 if (!ptr1)
 return (NULL);
 
@@ -40,9 +48,3 @@ ptr1[i] = old_ptr[i];
 free(ptr);
 return (ptr1);
 }
-free(ptr);
-return (NULL);
-}
-
-if (!ptr)
-return (malloc(new_size));
