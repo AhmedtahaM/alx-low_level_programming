@@ -40,7 +40,7 @@ default:
 i++;
 continue;
 }
-sep = ", "; 
+sep = ", ";
 i++;
 }
 }
